@@ -15,8 +15,8 @@ int main()
 
     cin >> dewpoint;
 
-    total = (temperature - dewpoint) / 4.4;
+    height = (temperature - dewpoint) / 4.4;
 
-    cout << "The total is" << total << endl;
+    cout << "The height is: " << height << endl;
     return 0;
 }
